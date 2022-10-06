@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color:#000;
+    font-family: sans-serif;
+    color: #000;
+    margin: 0;
+}
+
+.title {
+    padding: 0 20px;
+    font-size: 1.75em;
+    text-transform: uppercase;
+}
+
+h1.title {
+    margin: 40px auto 20px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-horizontal-20px {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    .width-50pct-desktop {
+        width: 50% !important;
+    }
+}
+.cover-container figure img {
+    width: 100%;
+}
+
+main h3.title {
+    font-size: 1.2em;
+}
+
+main section abbr {
+    color: #25cbd3;
+}
+
+@media screen and (min-width: 992px) {
+    .cover-container {
+        width: 40%;
+    }
+
+    .cover-container,
+    .section-video {
+        display: inline-block;
+    }
+
+    main .section-azure blockquote {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+}
+.header-menu{
+    width: 100%;
+    height: 50px;
+    background-color: #F0F8FF;
+    position: fixed;
+    top: 0;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #F0F8FF;
+    position: fixed;
+    top: 900px;
+}
+.menu{
+    align-items: flex-end;
+    align-items: center;
+}
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0;
+}
+

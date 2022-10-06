@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>chekout pagamento</title>
+    <link rel="stylesheet" href="pagamento.css" />
+    <script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
+<section class="pagamento">
+    <div class="descricao pagamento">
+
+    </div>
+    <div class="bbb_deals_image"><img src="fotos/pcgamer3.png.jpg" alt=""></div>
+    <div class="form-pagamento">
+        <h1>COMPUTADOR PICHAU GAMER</h1>
+            <p>MEMÓRIA 16GB DDR5</P>
+            <p>GABINETE GAMER PICHAU SERAPH E RGB</p>
+            <P>PROCESSADOR INTEL i9-12900K</P>
+            <P>GeForce RTX 3080 12GB</P>
+            <P>FONTE 750W 80 PLUS PFC ATIVO</P>
+            <p>WATER COOLER MASTERLIQUID 240MM ML240L V2 RGB</p>
+            <p>PLACA MÃE Z690</p>
+            <h2>R$8.400,98</h2>
+    </div>
+    <div class="form-pagamento">
+        <form action="home.html" class="contact-form margin-horizontal-20px">
+        <form method="POST"> 
+            <div class="form-100">
+                <label>E-mail</label>
+                <input type="text" required="true"/>
+            </div>
+            <div class="form-100">
+                <label>Dados do Cartão</label>
+                <input type="text" placeholder="0000 0000 0000 0000"required="true"/>
+                <div class="form50">
+                    <input type="text" placeholder="12/23" required="true"/>
+                    <input type="text" placeholder="CVC" required="true"/>
+                </div>
+            </div>
+            <div class="forma-100">
+                <input type="text" placeholder="Nome do cartão" required="true"/>
+            </div>
+            <div class="forma-100">
+                <input type="submit" name="acao" value="Pagar!" required="true"/>
+            </div>
+        </form>
+    </div>
+</section>
     
 </body>
 </html>

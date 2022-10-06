@@ -1,12 +1,55 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>chekout pagamento</title>
+    <link rel="stylesheet" href="pagamento.css" />
+    <script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
+<section class="pagamento">
+    <div class="descricao pagamento">
+
+    </div>
+    <div class="bbb_deals_image"><img src="fotos/pcgamer2.png.jpg" alt=""></div>
+    <div class="form-pagamento">
+            <H1>COMPUTADOR PICHAU GAMER</H1>
+            <p>AMD RYZEN RYZEN 7 3800XT</P>
+            <p>RADEON RX 6800 XT 16GB</p>
+            <P>16GB DDR4</P>
+            <P>HD 1TB + SSD 240GB</P>
+            <P>GABINETE GAMER PICHAU ROSTOCK RGB</P>
+            <p>PLACA MÃE B450M</p>
+            <p>FONTE 750W 80 PLUS PFC ATIVO</p>
+            <h2>R$R$7.000,00</h2>
+    </div>
+    <div class="form-pagamento">
+        <form action="home.html" class="contact-form margin-horizontal-20px">
+        <form method="POST"> 
+            <div class="form-100">
+                <label>E-mail</label>
+                <input type="text" required="true"/>
+            </div>
+            <div class="form-100">
+                <label>Dados do Cartão</label>
+                <input type="text" placeholder="0000 0000 0000 0000"required="true"/>
+                <div class="form50">
+                    <input type="text" placeholder="12/23" required="true"/>
+                    <input type="text" placeholder="CVC" required="true"/>
+                </div>
+            </div>
+            <div class="forma-100">
+                <input type="text" placeholder="Nome do cartão" required="true"/>
+            </div>
+            <div class="forma-100">
+                <input type="submit" name="acao" value="Pagar!" required="true"/>
+            </div>
+        </form>
+    </div>
+</section>
     
 </body>
 </html>

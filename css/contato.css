@@ -1,0 +1,123 @@
+header .link-logo {
+    display: block;
+    padding: 20px 25px;
+    border-bottom: 1px solid #000;
+}
+
+header nav ul {
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li:not(:last-child) {
+    margin-right: 15px;
+}
+
+.sub-title {
+    margin: 0 20px;
+}
+
+main .contact-form > div {
+    margin: 15px 0px;
+}
+
+main .contact-form > div label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+main .contact-form input,
+main .contact-form select,
+main .contact-form textarea {
+    width: 90%;
+    padding: 5px 15px;
+    outline-color: #000;
+}
+
+main .contact-form select {
+    width: 100%;
+}
+
+main .contact-form textarea {
+    resize: none;
+    padding-top: 15px;
+}
+
+main .contact-form > div input[type="radio"],
+main .contact-form > div input[type="checkbox"] {
+    width: 25px;
+}
+
+main .contact-form > div:nth-child(4) span {
+    color: #000;
+}
+
+main .contact-form > div input[type="submit"],
+main .contact-form > div input[type="reset"] {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+main .contact-form > div input[type="submit"] {
+    background-color: #87CEFA;
+    padding: 10px;
+    font-weight: bold;
+}
+
+main .contact-form > div input[type="reset"] {
+    background-color: 	#87CEFA;
+}
+
+@media screen and (min-width: 992px) {
+    main .contact-form {
+        width: 60%;
+        border: 1px solid #87CEFA;
+        border-radius: 20px;
+        padding: 25px;
+        margin: 25px auto;
+    }
+
+    main .contact-form input,
+    main .contact-form textarea {
+        width: 95%;
+    }
+
+    main .contact-form select {
+        width: 40%;
+    }
+
+    main .contact-form > div input[type="submit"],
+    main .contact-form > div input[type="reset"] {
+        width: auto;
+        padding: 10px;
+        outline: none;
+    }
+
+    main .contact-form > div input[type="submit"] {
+        margin-right: 20px;
+    }
+}
+footer {
+    text-align: center;
+    border-top: 1px solid #000;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    text-transform: lowercase;
+}
+
+footer section span:first-child {
+    color: #87CEFA;
+}
+
+footer section span:last-child {
+    color: #87CEFA;
+}
